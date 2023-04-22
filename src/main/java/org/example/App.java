@@ -13,7 +13,6 @@ public class App
     public static void main( String[] args )
     {
        SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
-//bi directional
      Address address=new Address();
      address.setId(101);
      address.setState("Telangana");
